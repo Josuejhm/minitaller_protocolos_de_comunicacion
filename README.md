@@ -137,6 +137,8 @@ Arduino UNO (Slave 2)
    - Conectá el cátodo (−) del LED a **GND**.
    - Los pines digitales son: D3, D4, D5, D6 y D7 respectivamente.
 
+**Importante:** Revisá que en la LCD diga "PCF8574-based" en "type".
+
 > ⚠️ **Nota:** La LCD y el bus I2C comparten los pines A4 y A5, esto es correcto ya que cada dispositivo tiene su propia dirección I2C y conviven en el mismo bus sin conflicto.
 
 ---
@@ -267,8 +269,8 @@ const int NUM_LEDS = 5;
 // Umbrales de temperatura (°C)
 const float UMBRALES[] = {15.0, 20.0, 25.0, 30.0};
 
-// LCD en dirección 0x27, 16 columnas, 2 filas
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+// LCD en dirección 0x20, 16 columnas, 2 filas
+LiquidCrystal_I2C lcd(0x20, 16, 2);
 
 // ── Variables globales ─────────────────────────────────
 float temperatura = 0.0;
