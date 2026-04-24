@@ -491,6 +491,12 @@ Master listo
 - La LCD debería mostrar `Temperatura: 24.0 C`
 - Los LEDs deberían encenderse según el rango de temperatura
 
+Puedes seleccionar diferentes valores de temperatura para verificar el funcionamiento del sistema. Para esto dale click al sensor de temperatura y debería de aparecer una barra arriba de este con la que se puede variar la temperatura. A continuación se presentan los tres casos probados:
+
+![24](./images/24_8.png)
+![39](./images/39.png)
+![-2](./images/-2_1.png)
+
 ### Tabla de diagnóstico de errores
 
 | Síntoma | Causa probable | Solución |
