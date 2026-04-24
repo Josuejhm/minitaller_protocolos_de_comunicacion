@@ -96,7 +96,7 @@ Arduino UNO (Slave 1)
 
 ---
 
-Luego de realizar estas conexiones, el diseño se tendría ver muy similar a este:
+Luego de realizar estas conexiones, el diseño se tendría que verse muy similar a este:
 ![slave_1](./images/slave_1.png)
 
 ## Parte 2: Conexiones del Slave 2 (LCD + LEDs)
